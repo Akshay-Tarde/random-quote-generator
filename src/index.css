@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+#quote-box {
+  width: 40%;
+  height: auto;
+  background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 50px;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.author-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 32px;
+}
+.but-parent {
+  display: flex;
+  justify-content: space-around;
+}
+#new-quote {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fbfbfb);
+  margin-left : 300px;
+}
+
